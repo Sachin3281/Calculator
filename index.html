@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="first-block">
+        <h2 id="output-el">0</h2>
+    </div>
+    <div class="second-block">
+        <div><button onclick="AcOperator()" class="greyy">AC</button></div>
+        <div><button onclick="isNeg()" class="greyy">+/-</button></div>
+        <div><button onclick="modulousOperator()" class="greyy">%</button></div>
+        <div><button onclick="divideOperator()" class="yellow-color">/</button></div>
+    </div>
+    <div class="third-block">
+        <div><button id="seven" onclick="seven()" class="blackk">7</button></div>
+        <div><button id="eight" onclick="eight()" class="blackk">8</button></div>
+        <div><button id="nine" onclick="nine()" class="blackk">9</button></div>
+        <div><button onclick="multiplyOperator()" class="yellow-color">*</button></div>
+    </div>
+    <div class="fourth-block">
+        <div><button id="four" onclick="four()" class="blackk">4</button></div>
+        <div><button id="five" onclick="five()" class="blackk">5</button></div>
+        <div><button id="six" onclick="six()" class="blackk">6</button></div>
+        <div><button onclick="minusOperator()" class="yellow-color">-</button></div>
+    </div>
+    <div class="fifth-block">
+        <div><button id="one" onclick="one()" class="blackk">1</button></div>
+        <div><button id="two" onclick="two()" class="blackk">2</button></div>
+        <div><button id="three" onclick="three()" class="blackk">3</button></div>
+        <div><button onclick="plusOperator()" class="yellow-color">+</button></div>
+    </div>
+    <div class="sixth-block">
+        <div><button class="double blackk" id="zero" onclick="zero()" >0</button></div>
+        <div><button class="blackk">.</button></div>
+        <div><button onclick="equalOperator()" class="yellow-color">=</button></div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

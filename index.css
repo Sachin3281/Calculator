@@ -1,0 +1,57 @@
+body{
+   text-align: center;
+   background: black;
+   margin: 100px 0;
+}
+h2{
+    color: whitesmoke;
+}
+.second-block{
+    display: flex;
+    justify-content: center;
+}
+.third-block{
+    display: flex;
+    justify-content: center;
+}
+.fourth-block{
+    display: flex;
+    justify-content: center;
+}
+.fifth-block{
+    display: flex;
+    justify-content: center;
+}
+.sixth-block{
+    display: flex;
+    justify-content: center;
+}
+button{
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+}
+.double{
+    width: 110px;
+    height: 50px;
+}
+.yellow-color{
+    background: #FFA447;
+    color: whitesmoke;
+}
+button{
+    border-radius: 40%;
+    border: 1px none;
+    font-size: 1.2rem;
+}
+button:hover{
+    background: #BFCFE7;
+}
+.greyy{
+    background: #C7B7A3;
+    color: black;
+}
+.blackk{
+    background: #3D3B40;
+    color: whitesmoke;
+}
